@@ -24,8 +24,144 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section class="present">
+					<img src="img/ts-logo-png.png" width="600"/>
+				</section>
+				<section data-background="img/typescript-official-description.png" data-background-size="contain">
+				</section>				
+				<section>
+						<h2>What is Typescript?</h2>
+						TypeScript is a superset of the JavaScript programming language that adds the concept of static typing to the core features of JavaScript.
+				</section>
+				<section class="present">
+						<img src="img/typescript-superset.png"/>
+				</section>
+				<section>
+						<h2>Why Typescript?</h2>
+						Because it is better for the compiler to catch errors than to have things fail at runtime.
+				</section>
+				<section class="present">
+						<h4><code>Ts guides us to the best of its ability...</code></h4>
+						<img src="img/square-in-a-round-peg.gif" width="400"/>
+				</section>
+				<section>
+						<h4>Basic Type Inference</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/DYUwLgBAZg9jEF4IEYBMBmA3AKFvJA5ACwCsAbATtqJHgIIBODiEA2mugLo71OsAMnFsXKVs1cBABGAQ2ZJWAIgAWIYMBiKANCgzdsshgDoADjBMAKAJQ5DpgK4BnZRcUB3GA2AATRTYgA9AFsKmoa2hDunj6KnNgAxjAAdo4woEYaAOYWhuycRmAwAGIAlgAeIN7WNkA"></iframe>
+				</section>
+				<section>
+						<h4>Explicit Types</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/DYUwLgBAZg9jBcEB2BXAtgIxAJwgXggEYAmAZgG4AoWGfCAcgBYBWANnqstEhoEFtsiVJhwBtALp1RJUuKp8BogAySCTNh0pdwEDAENBEABQBnMNgCWSAOYQAPsnRZsASglSARAAsQwYDA8AGiIyOUp9bAA6AAcYaKMXKgiYlBMvIw8AdxhsYAATD0SIAHpiiFFvX38giCyc-I9xSgBjGCQTGFBI-2sjCOlxSLAYADELAA8QPITEoA"></iframe>
+				</section>
+				<section>
+						<h4>Interfaces</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/JYOwLgpgTgZghgYwgAgMoAs4AcUG8BQyyCA9gDYlQBcyAzmFKAOYDc+AvvvqJLIigAUIIVAxIBrPIWQ4QAdWAATMOhogArgFsARtDadu4aPCRoAjurhQUEAB6QQi2mkw4ANMiEixk5ASK0ShAAMsJMKmpaulD6XGQQYHQWVhA0qMnWyAC8fuzIcM7pltZstBkQAHSkFFDZyABE2mTqEPWl5RWBiiFhKnUAjAAM7cWVsgrK6HUArBXDQA"></iframe>
+				</section>
+				<section>
+						<h4>Readonly and Optional</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/PTAECUFMEMBMHsB2AbAnqajagPIAcAXASyWmQChyDU9JQAxeeUAXlAG9zRvQAzIgF4CA-AC5QAZwIAnIogDmAbi49pMBCnQAjaNPGIArgFstkacp6g1cJGlBaDQsaEMmzygL7LyySAT5M4ozMbJyWOnqgAEwADOQelLxMAHT8QqygAEQAFpDIyPCZyknwyQ7pbDl5BUWU5CCgALTNLa1t7R2dXY2UAMbI0BISoAAKZhJIHCrc-NJSAHLQRpDiUrIKGZkAUvDZiLWWAwtLK5IycvKbACLwkAc88n58BvmLywAUAJRTlpZqBAZpIhQARskQJKkiHMCG86ABqEFgiFHGEnCw8BIJci9JBSUC0OaTNiISAAd1G4yQX2UOMQE18yQK8neBImiFSL2QsM+ilADR2e1AN0g5FZSA5rxO1xg0gg6jMRT5YAAotJpPBpABCZ6S5agcFWdS2VBAA"></iframe>
+				</section>
+				<section>
+						<h4>Structural instead of Nominal</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/PTAEGUBcCcFcGNK2gQwDakgTwA4FNQBnLQyPAWwChKBLAOzOgDMV4CAxWOurABQHt6kAMwARUAG9KoGaAAeALlB1Y5AEZ5oAbmmysSles07ZoAF4HVG7ZQC+tBppZtQAYVRm+ghmMm6ZispWxv6g+kFGNqYWEdY69gBuKNCgTFw8SpzcXkK+ALyS8koADAA0YUoAjJXlMQBMdaCJyaDwHuHuKJ4CueIFEkWgZRWglcP1xU3UaXSINPx0mKh0hEz80OSaABQ43pCZ6Tk+ogCUhcAAVKAAJvxE-JuQABb0AOagF2D2IKlccwtLFArNYbba7IRKCSBQzWcrhGGaWqWSK2M4DS43O6EB54Z5vD5fagwIGrdabaBbGY8E5aUA-PByViQIgwBBIVAYcgoSDwJ7lW54Qh0ADkzOuNCYTE0eAYNG5BDUWEwuAIdBQm0oxOBZO2bS6WBpdLADKZLLgiGQ6FAXJ5fMxgpFYolUugMsgcrIoEVyvwynVeEoQA"></iframe>
+				</section>
+				<section>
+						<h4>Note on Soundness</h4>
+						Minimum Structural type checking requirements part 1.
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/PTAEFkEsDtIWwIYBtQGcAuAnArgY3dpsqOgJ4AOApqLgBaW4DWMA5qJpQI7aQdyXR0qAFDCY6SpgBmCXNQAKAe3EAmACKgA3sNC7QADwBcoaNjgAjSQG4de0sdMXrwgL5jBkmXNBLxAZg1tPQMHM0tMG2D7EzDnYIAvUKcI13cJaVkFZUEAFkDbXSMY5Mi7JPDS3UTiioLQBHLnN2EANwRMUHIVY19BdVAAXi0Q0AAGABpQaIBGadA3No7yPx7s9ADB4aKJqeNpneqVUfnW9s6c1fE8zc0RnZmD4yPJhtA-Y+apbGh8SEVoEhEaCoKSKTD8TAACnIa0uggCAEphsAAFSgAAmijQin46ForFAKLAzSwCGBoPBkmhKgRNlJ5LBEOhflpwnpIMZVPIOVZQA"></iframe>
+				</section>
+				<section>
+						<h4>Note on Soundness</h4>
+						Minimum Structural type checking requirements part 2.
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/PTAEFkEsDtIWwIYBtQGcAuAnArgY3dpsqOgJ4AOApqLgBaW4DWMA5qJpQI7aQdyXR0qAFDCkldKAAeoALygAFAgBcoaNjgAjSpgCUcgHygADAG4xE0KTmLNq9Vp0AaNKoyZW+2UbOjr8qVNQEFAAeQBpYRl5UiCQgFFMTAB7TFFhEABabJzcvPyCwqKc0RCAFVpIVFAqmmS4OGToUGxUBBZqGFByJAQugCkEADcEVFwPcnRRcUlIdEo4avkAbQBGFwAmFwBmAF1zDLAAESaAckkAM1TcanR6VGpKKSwEboQifnnMETmF1AA6K6YeIIOgKBS-OAuGAAEyeLneRFIXiMuCaqGS4n+SGSLAh8zgul0BxCAGVaMlsEgYaBtGFwgBCYSQgFAkFgyGGOrQDFYnF4yFEg5AA"></iframe>
+				</section>
+				<section>
+						<h4>Literal Types</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/C4TwDgpgBAwghgJwCYEsB2cA2ARFCIDGwKA9mlALwBQUtUAPlAEQByJCwAFkzXY0wFE4AZ2A86DZgGUSAVy7i+zAOoRRTANxUqAM1loipcgFsSANwgAKVKLgGIALihpZxgEYQEAGiip8hsid4ZHQsXH9iMgBKKABvXloAekSoADp0qgBfbVMLSwBGL1Z2BSiNKGSoAHkAazgQKlyrQtZZDm4yipSBBAR2AEJtUEhqtAgAFRIAMRQLSih8yQAmSQBmSQAWSQBWLWHoACESEkxheeAEWWhGHSxhCC0qSs5gYDBhB2SCEiQIYzw+ghUmNgIkkCQCIljHZZFhUi9jJgAMQkMCRNAAfXwcCQVTQmAaVH2sB+EAAsgD2BiAEoQHF4gnzNzHTB08iMADkaAhbWE7A5jyoQA"></iframe>
+				</section>
+				<section>
+						<h4>Enums</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/PTAEFEDsFcFsGcBQiCmNagMIEMBOATAZWgEsAXUAb0VFqwBtoAjeAGhroBETtYB7SPjYdaACRR4ywuqEIAHbPhRIAvshCzec+ilDR42AOYpEANzygAxnnygAvFhvFyAOkyMWAbnVhC2AGYoZACeiNYE9qAARJB8FNigsCiwTCi4oHz+Vjag8KRkUZ6gGuC4uHzpAFy5ZLgkkIagJPCgsfHw8CSGkNhMOqBkfAPBcroABjgEzmRjPqAAtItLyyura+sbq8hocFh89BVUIqAASij47DIA4rgoaJd0AEKMJmrm6Zb7kZj7FS5n+G8n3okQADEUSv5ApYyCRTCh6MFcrxdNgWj8Drh-uc5ps8fiCStUAAPOQVCg7DCYcjBKC7ai0KIGSAAfX8uGwkEszU+UUiTM5bI5XJ5fCiDyZnzIUnw2B0fIckriMrlKHFHCiSlqfHICuiWvKuolkBQAHcWcEKgBrPUxM0W63qxlkZRkFnMoWc7nwXn8l3wN0e9le0VO6KwbC1EjE20RqMxxAqIA"></iframe>
+				</section>
+				<section>
+						<h4>Explicit Type assertion</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/PTAEFEA8AcBsEsDG8AuoAqBPaBTUBDAZ0JwCcV4B7AOwChb5qUyAzfRPAMUstAG9aoIaABG+UgC5Q1AK4BbEWQDcg4WMJTCKUowDmKgL70AbuNAseoALz8DBQqG6UVtC5QB0Y0tdABGAEwAzCpunkQ+AOQAFjiwsJQRLkA"></iframe>
+				</section>
+				<section>
+						<h4><code>never</code> type</h4>
+						<ul>
+							The never type is used in TypeScript to denote this bottom type. Cases when it occurs naturally:
+							<li class="fragment">A function never returns (e.g. if the function body has while(true){})</li>	
+							<li class="fragment">A function always throws (e.g. in function foo(){throw new Error('Not Implemented')} the return type of foo is never)</li>
+					</ul>
+				</section>
+				<section>
+						<h4>undefined and null</h4>
+						<img src="img/javascript-error-graph.png"/>
+				</section>
+				<section>
+						<h4>--strictNullChecks</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/?strictNullChecks=false#code/PTAEEkDtQFQZVAJgHQA8A0oC0WDOAXAJwEsBjfAOQFcAbGgYQAsBTUga11AHdnDnRikIgHsAJlVLNRyAFAhQAVUgBDQgE9Q+NQAdmnHnwFDCYiVNDL9zOrJmlhkAqABmxQgQCiAN2bQAvKAA2gCM6IjoAMwAusiukKIAFKKgfgB8oKIApIh+uQAMAJQA3DJ2Dk4AtmoAYm6ePpAAXKCQVBUARrwpLnX43r4lpc5UkOTEDprCcESCAOagCcLa+OOQAPyNrR28BaAA3jKgR6DyxM4LWrrC50srE7kBAEQjosxxUo+7B8cnYD98+CohEgJR+8gAvodjrdVsh8FMZpBZglijJIUA"></iframe>
+				</section>
+				<section>
+						<h4>Interafces vs Types</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/PTAEEkDsBcFMCcBmBDAxrUA3AzqAKgJ4AOs2AUGSKAJYwIrqgDKAFsiaAN6ViiioB7ADYD4ALlDZo8WgHMA3D1ABfCtGIZW7DAF4uZPoJHjJ0uYtVLacJGgwAFWJCbSBAawzcqfEpADq1AAm0CwSkACuALYARgiKVJbqHI7Orh6getw+TgHBoaARMXFkllTW9HbMAI7hyPAYsAAecJCBuFokADSgKS7w7p5KfNhBsAAyTrIhYVGx8PFgiRrVtfUZzGwcAGQ9Tn0DoDtZkqMTkFP5hXMWFEKw0JI1dbASTE9rmcqgyO3vsIrYP4AOiMonWACJokJwrBwQDgSNAuNJiF1gBGAAM8NWsCBvlyqL0AFYgVigA"></iframe>
+				</section>
+				<section>
+						<h4>Generics</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/PTAEHUEsBcAsHsCu1QHMCmA7dAnSBjAZwChJNpcAzAQ33VAFFyYBPAIWtQAZQBvY0IIDW6FgC5QAZWh5MqANwDBAN2oAbROkITMiALYAjXAG0AuooC+xYiAgxYaLLgIkyFHDTqNm0dpwCMADwA0gA0oABqAHx8SqAi4qDBioKgqhpaEhFmltZq6CjoBhJM0KwcqEGEMmSo4bqGuDEAvLGp8aISAEQAzAAsXaFxaeqa2qDG-lyh-v4zAEymxFY2YAC0G5tb2zu7e-v71r4ADvQAKjjo6IFnLW2p6ZoSZymp+ZTQz5fXt6+CeKhYJ9QBcrjcorkTvQADJkEQAE1h1XBoFaZ1AADI+KBsAAPYGwzAIpHQFEWRTWWwHak02l7YiURCYfBleCYUCXZS4Qg-KIAChg6D04zOZgAlM8zPcVNQcKBoPBLtBEDh2a0csNKIrQHz8ihIKjQILhQA6fJyOCgNagfzyI2gKKtLh2yAbMXS9ryxUFFWYE3HRCEWACijC4yQUxiv6gKztJW+r3x1W5YiqOWEah6Y75Q2TcLzcI9cyp2Uc9BcnA8+GGznc9B8jNZ-JR4j4NmEeD5M3wVB82uV9DwqOgWw9UIF-yrK10mez+mM5ms9kAd3sAFUAJIAEXBfPgBgAVs93bxQHEk+yAPKH9Ask3UQiESCoTB83gWcL7g-hU+IRCQeEJAAWWoOATRwahMHheA9D5d0LBbKwqTnFCUKneF0BoRA1BQDBsDwIhSHIKhaHoKA4AAOUza4KOaapZFQGJ+EETBqIkCiUz1UBl0wCRyNgKi9HQeQgA"></iframe>
+				</section>
+				<section>
+						<h4>Intersections</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/PTAEEkDsBcFMCcDOsDG0CWB7SiBQv0YEAzAQxVlAAVNDoAmAEVAG9dQPQAPALlEgCuAWwBGCANztOATz6DRE3AF8CReGQrVaMAMzM2nbnOFj4kw7P4nFhgF7GFZ5arjrylGnQAs+qR15WjuYyDqbBHPaBYX6gpKGKKrggoHQk7lp0TKxJYIYB8tHJFvFOySrJqW6anrrMsFxwkAAmiBkwWWxFnJEFimU5KWoaHtrQPqD1jS1t0HrZXRxxUX1giQPQ0gAOI5nMALzzuZz51qVHHJa9Z6DlYBvbM3MHNQzMAGSsoD2n4jfrWzsYONnqM5h8WLESr9EgA3UjwUCbeh8F5ZA4QgIABgANKBLABGfF-OEIzY6FGg-afLG4gk4r58eiY4nwxFeCneKkYvj0um4yJM3FLHTMxLEASQNBYSCgaDwUg4YiYeBCBAACk2ow5tQAlJ9gAAqUBNTCgRCYVXQAAWhAA5qADat8HKFYglSr1UidZIXYrlar4BqdN7cL63f7PV4Q0A"></iframe>
+				</section>
+				<section>
+						<h4>Unions</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/PTAEFUDsEsHtIM4CgnUgFwKYCcBmBDAY01ABFYBzUAbyVHtHxgFt8AbAFQE8AHTALlAByUgHkA4kIDcdBpHzMBoBOmxoKMgL6oMOAsVABhfOhqz6TaK068lQwwEEO086EKw2sbIJVrIGpG00LDwiEgAZBVYzBkYWdm4+QSFwhwBZNIcXWPwKJUgAV2YAIxxAlHRbUAd4tlAAXjJKUAAfIxNW0EjmVhkkd0RTS2tBGqt2Bpo48Zsk4TFJABpQeUVk2AQAa0xMIVBtJCA"></iframe>
+				</section>
+				<section>
+						<h4>Typeguards</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/PTAEBUE8AcFMHMCuBDATgE1AdwJYBcALUAERwGcBjVHAWxwDtk9ZMBVenAe3rICheGzVADNkFWCU7xQAb16gFoZBxrIANlDgAuUAHJiAeQDiugNzzFjGrB1k81evHMBfAfSGjxoAMJNZFhWVadU0bPW8AQXAzANAKTjVOVFt7BideV0FYETEJABlkGlV-RSUVEJgw3TyIgFlaiJjS5Hgw+kQaACNsjP48StAI8rVQAF5JaQAfHz9pgqLkc154njwy4LUdIY2x2XXVDUqdfWNdABpQKyrOMgBrWFhdUFdeYUR6CjwuelB0TgBlTjWQhpAAUQQOW2GAEoSoocMJQODhgA6CEVOBjUbjE4mWFyUqlFZkBKwFGJeDIjYoq7Q8ylZygWBqMgSBFI9FqNHDUJYnGRaL42JE7gktRkilUg4o+KJVB02KM5msvYgHzcewJUAAMUSWEGjDUkDI5FADCUn2+wsUxNJ5KkUvUaNaCoZGSAA"></iframe>
+				</section>
+				<section>
+						<h4>user-defined Type Guards</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/PTAEFcGcFMCdQCbQGYEsB20GgCoE8AHaAc3AENYFIAoajAFzmTIGNpQARAe2NAG9qoIaABGFANYAuUAAoAlAF4AfADcuqBAG5Bw9GQC20aZHqwMxbQF866RrGZtQAYTL1+OoYa4B3afOVqGtrCoCxcADZcsMam5la0yODoLPSoXOigqJDcxDJk6Kj6ZOHSAIIFReFy0vmFxZmQnDzuIbDQ9OCwGXkV9WSNOXIAdGKw4qAAhAoKEOhIaJha1NbUicmp6Q0u9D11JaDle9WgtZUNzq4twm0dXbKnfY3bw17ek9Oz8xhY8dT0hOxDmcZjlQAAfC70bTUMLoEwnXr7IH1GYCEKjKSyRRKWGQCLQIaRXIAcgx5mJcgANB5QHpDNJiVxIOJoNBicsEkkUmkMgguABlLiGegAC3Mu0qZURciuQlQyFkWRyEuKchlaJCwlx+MJPBV4SGdOgcmCwksoGg4RgmQVMiy231atlmu14QJRP1QzCkVgJpp1ksQA"></iframe>
+				</section>
+				<section>
+						<h4>Conditional Types</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/PTAEGEHsDsBMEsAu8YEMA2oAqBPADgKYDOAUCSNqAQB6IFxGgCqoA-KABqgBcoAmmUT4CoAJJEAcgFcAtgCMCAJ1yEAPFgB8oALyUadBqGiyFitqABEOYhZ6XokCwG5Bw-sR1jJJpSoKqAZg0nUAohQktrIgsScJEJSE9xaXlfYVULADNIR2DQsDj7RyA"></iframe>
+				</section>
+				<section>
+						<h4>infer keyword</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/C4TwDgpgBAYg9nKBeKBvKBDAXFAdgVwFsAjCAJwBopicBnYMgS1wHMqBjOh5lgbQF0oAXwDcAKDGhIsADYZgwCLgA8AFQB8yKKqgQAHotwATWlACCZMhhDLmAM3JQAqpoD8zqDlXjJ4aHblgAEYtGEDDZQIScnURKHioAHpEvCJSMl9pAPkAJlDwpUi08gFY+OTU6Iypf0CAZnz5CPomVjKEipaeTNr5ABZGhUKu1lK4pJSRlgkxRIAqObEoOagAeWJgDGYoYAALaDIIYHwyXB2-KDg7TCg7fFx2YEY4M5qlucSeqAAlI5PcVR+IJqXQGJQmKAACgAdLCMGQWLQcBhcCABABKZCaFEgTQoHT6QwQmFwhFIzCojFYqD2RzfKDuenI1E+O4PJ4vKAAZW4rC5YBkjGAkPJUyoRgggsIOF+LAAonowJjUEsEodjqcoLRobQBULIRKpejxEIJDVubyWPzBcBfhqARcUHb-oDIMCalcLa0rXrgLExEA"></iframe>
+				</section>
+				<section>
+						<h4>The Distributive rule of conditionals</h4>
+						One interesting rule about conditional types is how they interact with union types. A conditional types distributes over a union type with the following distribution law:
+						<pre>
+							<code data-trim data-noescape>
+									(A | B) extends T ? X : U = 
+												(A extends T ? X : U) |
+												(B extends T ? X : U)
+							</code>
+						</pre>
+				</section>
+				<section>
+						<h4>Deriving Higher order types</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/PQKhCgAIUhRAPAxgGwK4BMCmkBmAnAewFtIAVSAFwAsCBnbCgTwAdNbKqBDCyTvbTrVoBLAOYA7TgCNkDApACqUEMHBNWcJGiwBGADykANIoB8kALxlImeBUzj07BZAD8kcZgBumPJABcZADcaizYNigYmOgWmhG6egBEnAmQAD6QCVIp6QmICcZJ2RlZJsHgoBDQmhR4nIg8+MRW1HQMoezU3Lz8vEJikjJyisqq6tgINXUU+kamMeQ2dg5OrlYBHt54wWPWtrX1UTET+9OJyWnFRbn5Gec5JWUVyrHa2OKoyMi8DpCoDpg4YQeaKNEikEYhDQAOQI4ihH2Q0lkMzMlgWtnsjncCIufywgOBqw2Pn8QUhDDYPEsMLhCKRmH0tBqQNEuP+BMO6Xen1K4HKYGeAHkpBROECONh+BRUHhxJRQpACDheLg-vVhLD5awITsAEqYaWy0ihGa7JZYgAUADobXxRLQApxxIwANoAXQAlBYzE7GKirItMexrba8PbHc73V7zGYgTgSbrVomI4wyjg1RQNXLhLQAOIEAjoC12lNegDeUEgValMrlNVQmGCAF8+TsAJJ5gvoY0aSxjJWQHP5wvbBVSmL6w3iHsMvT95VDrulIA"></iframe>
+				</section>
+				<section>
+						<h4>Index and indexed access types - keyof T and T[K]</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/C4TwDgpgBAYg9nKBeKBvKBDAXFAdgVwFsAjCAJwBopicBnYMgS1wHMqBjOh5lgbQF0oAXwDcAKDGhIsBAGkIIZFADWCuADMZcEVF179AegNQARBhNQAPqeIXrJ9icnho8OAEElvMyf479AYFGeESkZM7SbgAKZHBgSm68qiAaWn6GxgQk5FZQ9Eysufk8AhLq+LjswIxwuFAsEMAxceSgADwAKlSyUBAAHsAQuAAmtCpqmh0AfAAUcMQAVjhd4yA4sgCUaGL6ZI34ZHXzC0kK6brBHbyy-GJCYsMQ7AA2GHtQz41Q6gg4buKPF5vaCfYCrHDJVL-CSgzBKBpNWKQMigGY-OBUHwbfxQYJZMJiWF9eGNZrI1HozF9EzYvTBACiZFi4VhAC8SYiWiiQGiEFRkrSLplQjlrMVCmLuKxSkA"></iframe>
+				</section>
+				<section>
+						<h4>More higher order types</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/JYOwLgpgTgZghgYwgAgMoEcCucooN4BQyxyAzsAF4QBcyImAtgEbQDcRJIcDEA-LaTBRQAc3YlkcETTqMWUdgF8CBAPQAqdUXXIAsnADWKOABsTyAA5QA9hehhgEUslDIAKslsPrXE9tUEYACedsgACjgOpgCMADxuAHzIALzIhBIA2mEuIMhGQdYw7gC6-O5ZxUrswaEA8hbevhjYuCnhkcAxsc04EAnsapraeobGZpY2dlAOTjnuyLhYwLgAJv6BISgAShBLq3GJbekkWXP5hSUAtGVuFVUboTt7ECs9ralPmMsvcW99AxotMgdPojJJxlZbPZHM5XB5cHAVj4TEF1jVthBEciggckqljsQEUiQCjkKdXOcim5irRbmFKgRFNVNsgdliSUE-m02cSUb8sL1+ipAcMAGI2BjzCzABAGSRkCBgTxFSFTGbOADSaJZYRlBgOABpkBrkBAAB6QEArZyU9x4tIcYjk3Iamnlen3dGszG8zkC3DRNq62X8loQI0AIi4PAjAB8I1IIBGhYMgToAMI+QRQTAIJVwZBegDuwDAAAt5aRFcqJlDpjDjTWvW5tY8IAhrFAVnETebLda8hACkU4CAgkbDvjHWTsq5XbTPSydh2u7UYFyPu3O93YlHuEmjX8hUA"></iframe>
+				</section>
+				<section>
+						<h4>______________</h4>
+						<iframe class="stretch" data-src="https://agentcooper.github.io/typescript-play/#code/C4TwDgpgBAYg9nKBeKBvKBDAXFAdgVwFsAjCAJwBopicBnYMgS1wHMqBjOh5lgbQF0oAXwDcAKDGhIsBAGkIIZFADWCuADMZcEVF179AegNQARBhNQAPqeIXrJ9icnho8OAEElvMyf479AYFGeESkZM7SbgAKZHBgSm68qiAaWn6GxgQk5FZQ9Eysufk8AhLq+LjswIxwuFAsEMAxceSgADwAKlSyUBAAHsAQuAAmtCpqmh0AfAAUcMQAVjhd4yA4sgCUaGL6ZI34ZHXzC0kK6brBHbyy-GJCYsMQ7AA2GHtQz41Q6gg4buKPF5vaCfYCrHDJVL-CSgzBKBpNWKQMigGY-OBUHwbfxQYJZMJiWF9eGNZrI1HozF9EzYvTBACiZFi4VhAC8SYiWiiQGiEFRkrSLplQjlrMVCmLuKxSkA"></iframe>
+				</section>
+					<section>Slide 2</section>
 			</div>
 		</div>
 
